@@ -7,7 +7,9 @@
  *
  */
 public class Car {
+
 	private int velocity = 170;
+
 	private String name;
 
 	public Car(String name) {
