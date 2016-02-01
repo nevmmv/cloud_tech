@@ -7,7 +7,7 @@
  *
  */
 public class Car {
-	private int velocity = 120;
+	private int velocity = 60;
 	private String name;
 
 	public Car(String name) {

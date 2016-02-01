@@ -16,7 +16,8 @@ public class Main {
 
 			@Override
 			public void run() {
-				Car car = new Car("Mersedes", 100);
+			// will be conflict here
+				Car car = new Car("Mazda", 140);
 				car.drive();
 			}
 		}).start();
