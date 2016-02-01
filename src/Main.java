@@ -30,6 +30,15 @@ public class Main {
 			}
 		}).start();
 
+		new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				Car car2 = new Car("Toyota", 200);
+				car2.drive();
+			}
+		}).start();
+
 	}
 
 }

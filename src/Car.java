@@ -7,7 +7,7 @@
  *
  */
 public class Car {
-	private int velocity = 120;
+	private int velocity = 170;
 	private String name;
 
 	public Car(String name) {
@@ -38,7 +38,7 @@ public class Car {
 	public void drive() {
 		System.out.println("Drive..." + this);
 		for (int i = 0; i < 30; ++i) {
-			System.out.println('=' + "[" + getName() + ",velocity=" + getVelocity() + "]" + '=');
+			System.out.println("= I am " + "[" + getName() + ",velocity=" + getVelocity() + "]" + '=');
 			try {
 				Thread.sleep(10000 / getVelocity());
 			} catch (InterruptedException e) {
